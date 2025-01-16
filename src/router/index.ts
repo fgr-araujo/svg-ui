@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory('/svg-ui/'),
   routes: [
     {
-      path: '/',
+      path: '/svg-ui',
       name: 'home',
       component: HomeView,
     },
