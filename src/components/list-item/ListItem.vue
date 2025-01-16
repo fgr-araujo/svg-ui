@@ -1,5 +1,5 @@
 <template>
-  <g class="List" tabindex="0" @mouseenter="startAnim" @mouseleave="endAnim">
+  <g class="List" tabindex="0">
     <image
       x="0"
       y="110"
@@ -15,40 +15,6 @@
         -102.7 - position.horizontalRatio / 2
       } l -8.3,0  -8.3,0 h -79 c -3.9,0  -7.7,-1.7  -10.3,-4.6 l -7.2,-8.1 c -0.9,-1  -2.2,-1.6  -3.5,-1.6 h -168.6 c -2.2,0  -4.3,1  -5.7,2.8 `"
     >
-      <animate
-        attributeName="d"
-        :from="`m 100.3,92.7 l -5.6,7.1 c -2.2,2.8  -5.6,4.4  -9.1,4.4 h -80.1 c -2.5,0  -4.5,2  -4.5,4.5 v 35.1 c 0,3.9  1.6,7.7  4.3,10.4 l 16,16 c 2.6,2.5  6.1,4  9.8,4 h 55.6 c 3.2,0  6.3,-1.5  8.3,-4 l 5.3,-6.7 c 1.4,-1.8  3.5,-2.8  5.7,-2.8 h 167.7 c 1.9,0  3.7,0.8  5,2.2 l 6.3,7.1 c 2.4,2.7  5.7,4.2  9.3,4.2 h 80.2 l 8.3,0  8.2,0 h ${
-          103.8 + position.horizontalRatio / 2
-        } c 3.4,0  6.2,-2.8  6.2,-6.2 v -56.3 c 0,-4.2  -3.4,-7.5  -7.5,-7.5 h ${
-          -102.7 - position.horizontalRatio / 2
-        } l -8.3,0  -8.3,0 h -79 c -3.9,0  -7.7,-1.7  -10.3,-4.6 l -7.2,-8.1 c -0.9,-1  -2.2,-1.6  -3.5,-1.6 h -168.6 c -2.2,0  -4.3,1  -5.7,2.8 `"
-        :to="`m 100.3,92.7 l -5.6,7.1 c -2.2,2.8  -5.6,4.4  -9.1,4.4 h -80.1 c -2.5,0  -4.5,2  -4.5,4.5 v 35.1 c 0,3.9  1.6,7.7  4.3,10.4 l 16,16 c 2.6,2.5  6.1,4  9.8,4 h 55.6 c 3.2,0  6.3,-1.5  8.3,-4 l 5.3,-6.7 c 1.4,-1.8  3.5,-2.8  5.7,-2.8 h 167.7 c 1.9,0  3.7,0.8  5,2.2 l 6.3,7.1 c 2.4,2.7  5.7,4.2  9.3,4.2 h 80.2 l 8.3,0  8.2,0 h ${
-          103.8 + position.horizontalRatio / 2
-        } c 3.4,0  6.2,-2.8  6.2,-6.2 v -56.3 c 0,-4.2  -3.4,-7.5  -7.5,-7.5 h ${
-          -102.7 - position.horizontalRatio / 2
-        } l -8.3,8  -8.3,-8 h -79 c -3.9,0  -7.7,-1.7  -10.3,-4.6 l -7.2,-8.1 c -0.9,-1  -2.2,-1.6  -3.5,-1.6 h -168.6 c -2.2,0  -4.3,1  -5.7,2.8 `"
-        dur=".1s"
-        fill="freeze"
-        begin="indefinite"
-        ref="elBeginAnimate"
-      />
-      <animate
-        attributeName="d"
-        :from="`m 100.3,92.7 l -5.6,7.1 c -2.2,2.8  -5.6,4.4  -9.1,4.4 h -80.1 c -2.5,0  -4.5,2  -4.5,4.5 v 35.1 c 0,3.9  1.6,7.7  4.3,10.4 l 16,16 c 2.6,2.5  6.1,4  9.8,4 h 55.6 c 3.2,0  6.3,-1.5  8.3,-4 l 5.3,-6.7 c 1.4,-1.8  3.5,-2.8  5.7,-2.8 h 167.7 c 1.9,0  3.7,0.8  5,2.2 l 6.3,7.1 c 2.4,2.7  5.7,4.2  9.3,4.2 h 80.2 l 8.3,0  8.2,0 h ${
-          103.8 + position.horizontalRatio / 2
-        } c 3.4,0  6.2,-2.8  6.2,-6.2 v -56.3 c 0,-4.2  -3.4,-7.5  -7.5,-7.5 h ${
-          -102.7 - position.horizontalRatio / 2
-        } l -8.3,0  -8.3,0 h -79 c -3.9,0  -7.7,-1.7  -10.3,-4.6 l -7.2,-8.1 c -0.9,-1  -2.2,-1.6  -3.5,-1.6 h -168.6 c -2.2,0  -4.3,1  -5.7,2.8 `"
-        :to="`m 100.3,92.7 l -5.6,7.1 c -2.2,2.8  -5.6,4.4  -9.1,4.4 h -80.1 c -2.5,0  -4.5,2  -4.5,4.5 v 35.1 c 0,3.9  1.6,7.7  4.3,10.4 l 16,16 c 2.6,2.5  6.1,4  9.8,4 h 55.6 c 3.2,0  6.3,-1.5  8.3,-4 l 5.3,-6.7 c 1.4,-1.8  3.5,-2.8  5.7,-2.8 h 167.7 c 1.9,0  3.7,0.8  5,2.2 l 6.3,7.1 c 2.4,2.7  5.7,4.2  9.3,4.2 h 80.2 l 8.3,0  8.2,0 h ${
-          103.8 + position.horizontalRatio / 2
-        } c 3.4,0  6.2,-2.8  6.2,-6.2 v -56.3 c 0,-4.2  -3.4,-7.5  -7.5,-7.5 h ${
-          -102.7 - position.horizontalRatio / 2
-        } l -8.3,0  -8.3,0 h -79 c -3.9,0  -7.7,-1.7  -10.3,-4.6 l -7.2,-8.1 c -0.9,-1  -2.2,-1.6  -3.5,-1.6 h -168.6 c -2.2,0  -4.3,1  -5.7,2.8 `"
-        dur=".1s"
-        fill="freeze"
-        begin="indefinite"
-        ref="elEndAnimate"
-      />
     </path>
 
     <path
@@ -71,7 +37,6 @@
 
 <script setup lang="ts">
 import { type TPosition } from "@/helpers/compute-svg-path";
-import { ref } from "vue";
 
 export type TItem = {
   id: number;
@@ -85,15 +50,6 @@ defineProps<{
   position: TPosition;
   item: TItem;
 }>();
-
-const elBeginAnimate = ref(null);
-const elEndAnimate = ref(null);
-function startAnim() {
-  elBeginAnimate.value.beginElement();
-}
-function endAnim() {
-  elEndAnimate.value.beginElement();
-}
 </script>
 
 <style>
