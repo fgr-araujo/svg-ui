@@ -1,0 +1,60 @@
+<template>
+  <svg
+    width="282.2"
+    height="56.59"
+    viewBox="0 0 282.2 56.59"
+    version="1.1"
+    id="svg1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+  >
+    <rect
+      style="
+        vector-effect: none;
+        fill: #c94831;
+        fill-opacity: 1;
+        stroke: #cccccc;
+        stroke-width: 0.3;
+        stroke-linecap: square;
+        stroke-linejoin: miter;
+        stroke-miterlimit: 1;
+        stroke-dasharray: none;
+        stroke-dashoffset: 0;
+        stroke-opacity: 1;
+        -inkscape-stroke: none;
+        paint-order: markers stroke fill;
+      "
+      id="rect5468"
+      width="177.3"
+      height="56.29"
+      x="0.15"
+      y="0.15"
+      rx="4.111"
+      ry="4.111"
+    />
+    <path
+      d="m 22.35,39.75 h -3.3 v -22.94 h 14.8 q 4.9,0.1 4.9,5.45 v 1.8 q 0,4.92 -4.9,4.94 h -9.7 v -3.2 h 9 q 2.3,0 2.3,-1.93 v -1.68 q 0,-2.1 -2.1,-2.1 h -11 z m 37.4,-13.99 v 3.24 h -12.6 v -3.24 z m -14.4,10.74 h 14.6 v 3.28 h -17.9 v -22.95 h 17.9 v 3.26 h -14.6 z m 24.7,-7.47 v -3.23 h 9.1 q 2.2,0.1 2.2,-2.05 v -1.56 q 0,-2.1 -2.1,-2.1 h -11 v 19.66 h -3.2 v -22.94 h 14.7 q 4.9,0.1 4.9,4.94 v 2.31 q 0,4.97 -4.9,4.99 h -5 l 10.3,10.71 h -4.4 z m 19.8,10.75 v -3.28 h 13.95 q 2.3,0 2.3,-2.25 v -3.09 q 0,-2.16 -2.3,-2.16 h -9.25 q -5,0 -5,-4.99 l 0.1,-2.28 q 0,-4.9 4.9,-4.92 h 14.65 v 3.28 h -14.15 q -2.2,0 -2.2,2.05 v 1.5 q 0,2.16 2.1,2.16 h 9.45 q 5,0 5,4.56 v 4.48 q -0.1,4.92 -5,4.94 z m 29.85,-19.69 q -2.2,0 -2.2,2.35 v 11.87 q 0,2.19 2.2,2.19 h 8.5 q 2,0 2,-2.16 v -12.04 q 0,-2.21 -2,-2.21 z m -5.4,1.64 q 0,-4.92 4.9,-4.92 h 10 q 5,0 5,4.88 v 13.15 q 0,4.94 -5,4.94 h -10 q -4.9,0 -4.9,-4.92 z m 40.9,12.66 v -17.58 h 3 v 22.95 h -3 l -13,-17.39 v 17.39 h -3 v -22.95 h 3 z"
+      id="text5467"
+      style="
+        font-size: 32px;
+        line-height: 1.25;
+        font-family: 'Anita  Semi-square';
+        -inkscape-font-specification: 'Anita  Semi-square';
+        fill: #dddddd;
+      "
+      aria-label="PERSON"
+    />
+    <path
+      d="m 208.2,16.85 h 4 l -12,22.89 h -2 l -11,-22.88 h 3 l 9,17.77 z m 11,22.92 h -4 v -22.95 h 4 z m 23,-14.02 v 3.24 h -13 v -3.24 z m -15,10.74 h 15 v 3.28 h -18 v -22.95 h 18 v 3.26 h -15 z m 32,3.23 h -2 l -11,-22.87 h 4 l 8,17.76 l 3,-5.93 l 2,4.11 z m -2,-22.82 h 4 l 9,17.76 l 8,-17.78 h 4 l -11,22.89 h -3 l -11,-22.86 z"
+      id="text5468"
+      style="
+        font-size: 32px;
+        line-height: 1.25;
+        font-family: 'Anita  Semi-square';
+        -inkscape-font-specification: 'Anita  Semi-square';
+        fill: #cf4534;
+      "
+      aria-label="VIEW"
+    />
+  </svg>
+</template>

@@ -1,7 +1,21 @@
 import { reactive } from 'vue';
 
+export type TPosition = {
+  oW: number;
+  oH: number;
+  width: number;
+  height: number;
+  viewBoxWidth: number;
+  ovBW: number;
+  viewBoxHeight: number;
+  ovBH: number;
+  horizontalRatio: number;
+  verticalRatio: number;
+  viewBox: string,
+}
+
 export default function useComputeSVG () {
-  const position = reactive({
+  const position: TPosition = reactive({
     oW: 0,
     oH: 0,
     width: 0,
@@ -15,8 +29,7 @@ export default function useComputeSVG () {
     viewBox: '0 0 0 0',
   });
 
-  function resized(v) {
-    console.log('resized')
+  function resized(v: TPosition) {
     position.width = v.width;
     position.height = v.height;
     position.oW = v.oW;

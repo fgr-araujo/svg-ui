@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
+  outline: none;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
     color 0.5s,
     background-color 0.5s;
   line-height: 1.6;
-  font-family: "Timmana", serif;
+  font-family: "Fira Code", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
