@@ -6,6 +6,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      redirect: '/svg-ui',
+    },
+    {
+      path: '/svg-ui',
       name: 'home',
       component: HomeView,
     },
